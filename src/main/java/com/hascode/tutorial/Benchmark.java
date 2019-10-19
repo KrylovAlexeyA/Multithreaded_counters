@@ -70,7 +70,7 @@ public class Benchmark {
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public void mutexIncrement1() {
+    public void mutexCounterIncrement1() {
         mutexCounter.increment();
     }
 
@@ -116,7 +116,7 @@ public class Benchmark {
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public void councurrentIncrement1() {
+    public void councurrentCounterIncrement1() {
         concurrentCounter.increment();
     }
 
@@ -162,7 +162,7 @@ public class Benchmark {
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public void magic1Increment1() {
+    public void magic1CounterIncrement1() {
         magicCounter.increment();
     }
 
