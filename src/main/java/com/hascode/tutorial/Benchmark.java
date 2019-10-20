@@ -116,47 +116,47 @@ public class Benchmark {
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public void councurrentCounterIncrement1() {
+    public void concurrentCounterIncrement1() {
         concurrentCounter.increment();
     }
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(2)
-    public void councurrentCounterIncrement2() {
+    public void concurrentCounterIncrement2() {
         concurrentCounter.increment();
     }
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(3)
-    public void councurrentCounterIncrement3() {
+    public void concurrentCounterIncrement3() {
         concurrentCounter.increment();
     }
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(4)
-    public void councurrentCounterIncrement4() {
+    public void concurrentCounterIncrement4() {
          concurrentCounter.increment();
     }
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public long councurrentCounterGet1() {
+    public long concurrentCounterGet1() {
         return concurrentCounter.getValue();
     }
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(2)
-    public long councurrentCounterGet2() {
+    public long concurrentCounterGet2() {
         return concurrentCounter.getValue();
     }
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(3)
-    public long councurrentCounterGet3() {
+    public long concurrentCounterGet3() {
         return concurrentCounter.getValue();
     }
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(4)
-    public long councurrentCounterGet4() {
+    public long concurrentCounterGet4() {
         return concurrentCounter.getValue();
     }
 
@@ -208,7 +208,7 @@ public class Benchmark {
 
     @org.openjdk.jmh.annotations.Benchmark
     @Threads(1)
-    public void magic2Increment1() {
+    public void magic2CounterIncrement1() {
         magicCounter2.increment();
     }
 
